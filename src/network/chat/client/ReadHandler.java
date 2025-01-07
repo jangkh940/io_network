@@ -22,7 +22,7 @@ public class ReadHandler implements Runnable {
       while (true) {
         String received = null;
 
-          received = input.readUTF();
+        received = input.readUTF();
 
         System.out.println(received);
       }
